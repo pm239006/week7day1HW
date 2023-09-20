@@ -71,3 +71,39 @@ function replace(arr) {
     return(arr)
     };
  console.log(replace(arr));
+
+
+
+ //============ Codewars prob #1  ============//
+// descriptions : Write a function which converts the input string to uppercase.
+
+//my python answer
+
+//def make_upper_case(s):
+//return s.upper()
+
+
+function make_upper_case(s){
+  return s.toUpperCase();
+}
+
+
+
+  //============ Codewars prob #2  ============//
+
+  // descriptions: Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+  // my python answer
+// def bool_to_word(boolean):
+//   if boolean == True:
+//   return "Yes"
+// else:
+//   return "No"
+
+
+function bool_to_word(bool){
+    if (bool === true) return "Yes";
+    return "No";
+}
+
+
